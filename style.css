@@ -43,4 +43,45 @@
     color: white;
     align-items: center;
     background-image: url("images/background.png"), linear-gradient(45deg, #302f2f, #1e0303);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    border: solid #fff;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.about-title {
+    text-align: center;
+    padding-top: 20px;
 }
