@@ -31,3 +31,16 @@
     color: blue;
     cursor: pointer;
 }
+
+.banner-img {
+    width: 300px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    background-image: url("images/background.png"), linear-gradient(45deg, #302f2f, #1e0303);
+}
